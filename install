@@ -1,0 +1,50 @@
+#This Script id created by Ak Hacker
+#Subscribe me on YouTube https://youtube.com/channel/UCZMvUdiyh7aUOzjHD8cB5xw
+clear
+echo ""
+echo -e '\e[1;34m '
+echo -e '\e[1;34m' "         .............."        '\e[1;31m' "       welcome to my"
+echo -e '\e[1;34m' "                  ..,;:ccc,." '\e[1;31m' "     Hacking world"
+echo -e '\e[1;34m' "               ......''';lxO."
+echo "       .....''''..........,:ld;"
+echo "                  .';;;:::;,,.x,"
+echo "             ..'''.           0XAKc:OAKO."
+echo -e '\e[1;34m' "         ....             ,ONc;"'\e[1;31m'"A"'\e[1;34m'"ĸ"'\e[1;31m'"H"'\e[1;34m'"ʌcĸɘʀ"'\e[1;34m'"',."
+echo "        .                 OMo           ':ddo."
+echo "                         dMc               :OO;"
+echo "                         0M.                 .:o."
+echo "                         ;Wd"
+echo "                          ;XO,"
+echo "                            ,d0Odlc;,.."
+echo -e '\e[1;31m' "     If you think"   '\e[1;34m' "          ..',;:cdOOd::,."
+echo -e  '\e[1;31m' "        you are bad"        '\e[1;34m' "                 .:d;.':;."
+echo -e  '\e[1;31m' "        Than i am your"                   '\e[1;34m' "                  :d,  .,"
+echo -e '\e[1;31m' "           ▄︻┻̿═━一 DAD"      '\e[1;34m'          "                   ;l   .."
+echo "                                              .o"
+echo "                                                c"
+echo "                                                .'"
+echo -e '\e[1;35m '
+echo ""
+echo ""
+echo -e "\e[1;91m [+] YouTube: \e[1;92mDevil Hackers"
+echo -e "\e[1;91m [+] Instagram: \e[1;92makhacker22\e[1;97m"
+echo ""
+read -p " Does you want to install Devil Shell in Termux?(Yes/No) : " input
+
+if [[ $input == Yes || $input == yes || $input == y || $input == Y ]]; then
+    clear
+    cp bash.bashrc $HOME
+    cd /data/data/com.termux/files/usr/etc
+    rm -rf motd
+    rm -rf bash.bashrc
+    cd $HOME
+    mv bash.bashrc /data/data/com.termux/files/usr/etc
+    echo -e "\e[1;91mSuccessfully Installed 😈😈"
+    echo -e "Restart Termux"
+    exit  3
+elif [[ $input == No || $input == no || $input == n || $input == N ]]; then
+exit 2
+else
+echo -e "\e[1;91m🖕🖕"
+exit 1
+fi
