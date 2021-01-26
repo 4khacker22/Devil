@@ -1,5 +1,7 @@
 #This Script id created by Ak Hacker
-#Subscribe me on YouTube https://youtube.com/channel/UCZMvUdiyh7aUOzjHD8cB5xw
+termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
+
+sleep 1
 clear
 echo ""
 echo -e '\e[1;34m '
